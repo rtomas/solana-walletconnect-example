@@ -8,9 +8,10 @@ import {
   PhantomWalletAdapter,
   HuobiWalletAdapter,
   SolflareWalletAdapter,
-  TrustWalletAdapter
+  TrustWalletAdapter,
 } from '@solana/wallet-adapter-wallets'
 
+import "./style.css"
 
 // 0. Setup chains
 const chains = [solana, solanaTestnet, solanaDevnet]
