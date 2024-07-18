@@ -40,10 +40,10 @@ createWeb3Modal({
   chains,
   projectId,
   wallets: [  
-    new PhantomWalletAdapter(),
+    /* new PhantomWalletAdapter(),
     new HuobiWalletAdapter(),
     new SolflareWalletAdapter(),
-    new TrustWalletAdapter()
+    new TrustWalletAdapter() */
   ]
 })
 
