@@ -4,13 +4,6 @@ import ReactDOM from "react-dom/client";
 import { createWeb3Modal, defaultSolanaConfig } from '@web3modal/solana/react'
 import { solana, solanaTestnet, solanaDevnet } from '@web3modal/solana/chains'
 
-import {
-  PhantomWalletAdapter,
-  HuobiWalletAdapter,
-  SolflareWalletAdapter,
-  TrustWalletAdapter,
-} from '@solana/wallet-adapter-wallets'
-
 import "./style.css"
 
 // 0. Setup chains
